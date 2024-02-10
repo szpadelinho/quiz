@@ -1,6 +1,10 @@
 import "./App.css";
 
-const Content = () => {
+const Content = ({ endQuiz }) => {
+    const handleEndQuiz = () => {
+        endQuiz()
+    }
+
     return(
         <div className="content">
             <div className="question_number">
@@ -18,6 +22,7 @@ const Content = () => {
             </div>
             <div className="next">
                 <button>Następne pytanie</button>
+                <button id="end" onClick={handleEndQuiz}>Zakończ quiz</button>
             </div>
         </div>
     )

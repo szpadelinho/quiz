@@ -94,6 +94,15 @@ article{
 
 .next button{
     background: #161515;
+    margin: 0px 50px;
+}
+
+.next{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
 .board{
@@ -145,6 +154,10 @@ article{
 
 .start button:hover{
     border-color: #3d322f;
+}
+
+#end{
+    background-color: red;
 }
 
 /* https://coolors.co/f7f0f5-decbb7-8f857d-5c5552-433633-332d2b-1f1e1d */
