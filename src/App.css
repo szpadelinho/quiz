@@ -13,6 +13,16 @@ header{
     color: #F7F0F5;
 }
 
+header h1{
+    color: #F7F0F5;
+    transition: .3s;
+}
+
+header h1:hover{
+    color: #DECBB7;
+    transition: .3s;
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -33,6 +43,108 @@ article{
     border-radius: 10px;
     background: linear-gradient(to bottom, #3d322f, #302826);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.question_number{
+    height: 5%;
+    color: #B7A89A;
+}
+
+.question_title{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question_title img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .6);
+}
+
+.answers{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.answers button{
+    width: 50%;
+    margin: 10px 0px;
+    background: #1F1E1D;
+}
+
+.answers button:hover{
+    border-color: #DECBB7;
+}
+
+.next button{
+    background: #161515;
+}
+
+.board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 98%;
+    width: 99%;
+    border-radius: 5px;
+    background: #1F1E1D;
+}
+
+.board button{
+    background: #DECBB7;
+    color: #1F1E1D;
+}
+
+.board button:hover{
+    border-color: #3d322f;
+}
+
+.start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98%;
+    width: 99%;
+    border-radius: 5px;
+    background: #433633;
+    color: #DECBB7;
+}
+
+.start input{
+    background: #1F1E1D;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    width: 20%;
+    margin: 10px 0px;
+}
+
+.start button{
+    color: #DECBB7;
+    background: #1F1E1D;
+    margin: 10px 0px;
+}
+
+.start button:hover{
+    border-color: #3d322f;
 }
 
 /* https://coolors.co/f7f0f5-decbb7-8f857d-5c5552-433633-332d2b-1f1e1d */

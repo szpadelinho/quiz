@@ -1,10 +1,13 @@
 import "./App.css";
+import Content from "./Content.jsx";
+import Board from './Board.jsx';
+import Start from './Start.jsx';
 
 const Viewport = () => {
     return(
         <section>
             <article>
-                <h1>This is a section.</h1>
+                <Start/>
             </article>
         </section>
     )
